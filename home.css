@@ -77,9 +77,9 @@ div>img{
 .business+div{
     display: flex;
     justify-content: space-around;
-    width: 75%;
+    width: 80%;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 160px;
 }
 
 .business+div>div{
@@ -91,5 +91,34 @@ div>img{
     width: 100%;
 }
 
+.features{
+    display: flex;
+    border: 0px solid;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 120px;
+}
 
+.features > div > h2 {
+    font-size: 32px;
+}
 
+.features > div > p {
+    font-size: 18px;
+}
+.features > div:first-child{
+    width: 35%;
+    height: auto;
+    margin: auto;
+}
+
+.features > div:last-child{
+    width: 60%;
+    height: auto;
+    margin: auto;
+}
+
+.features > div:last-child > img {
+    width: 100%;
+    height: 100%;
+}
