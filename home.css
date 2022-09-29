@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.toph1{
+    margin-bottom: 40px;
+    color: #212529;
+    font-size: 80px;
+    line-height: 1.2;
+    font-weight: 300;   
+    /* text-decoration: none; */
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+span{
+    font-weight: 600;
+}
