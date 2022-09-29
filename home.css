@@ -7,13 +7,89 @@ body{
     color: #212529;
     font-size: 80px;
     line-height: 1.2;
-    font-weight: 300;   
-    /* text-decoration: none; */
+    font-weight: 300;  
+    font-size: 80px; 
+    text-decoration: none;
     text-align: center;
-    width: 50%;
+    width: 80%;
     margin: auto;
+    margin-bottom: 40px;
 }
 
 span{
-    font-weight: 600;
+    font-weight: 900;
 }
+h3{
+    font-weight: 400;
+    text-align: center; 
+    font-size: 30px;  
+    width: 90%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+h3+a{
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #3b8fc2;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border: 0px;
+    text-decoration: none;
+}
+
+a+div{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+    /* border: 1px solid red; */
+}
+
+div>img{
+    width: 100%;
+}
+
+.business{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.business>div{
+    width: 20%;
+    margin: auto;
+}
+
+.business>div>img{
+    width: 100%;
+}
+
+.business+div{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.business+div>div{
+    width: 10%;
+    margin: auto;
+}
+
+.business+div>div>img{
+    width: 100%;
+}
+
+
+
