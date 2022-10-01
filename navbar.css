@@ -1,0 +1,39 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 15px;
+    margin: -8px;
+    margin-bottom: 160px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.navbar > div > a{
+    text-decoration: none;
+    position: relative;
+    margin: 0px;
+    padding: 18px 23px 17px 20px;
+    font-family: Avenirnextltpro,sans-serif;
+    color: #3b8fc2;
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 500;
+}
+
+#get_button{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background-color: #3b8fc2;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border: 0px;
+    text-decoration: none;
+}
+
+.navbar > img{
+    width: 10%;
+}
