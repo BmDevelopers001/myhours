@@ -13,6 +13,7 @@ function submitted(){
         localStorage.setItem("name",name.value);
         localStorage.setItem("email",email.value);
         localStorage.setItem("password",pwd.value);
-        alert("Signed up successfully");
+        // alert("Signed up successfully");
+        submit.href = "sign-in.html";
     }
 }
